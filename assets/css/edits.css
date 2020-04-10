@@ -1,0 +1,205 @@
+html, body {
+    overflow-x: hidden;
+    background-color: #E8E8E8 ;
+}
+
+a:hover {
+    color: #212121;
+}
+
+#logo {
+    margin: -5%;;
+    width: 110%;
+    padding: 10px;
+}
+
+section#one {
+    border: none;
+}
+
+/* Slideshow */
+#slideshow img{
+    position: absolute;
+    width: 30%;
+    height: 330px;
+    left: 50%;
+    margin-top: -50px
+}
+
+
+
+.major {
+    margin-top: -3%;
+}
+
+#smaller {
+    font-size: 15px;
+}
+
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #736790;
+}
+
+
+
+
+
+/* Media Queries */
+@media screen and (min-width: 3px ) {
+    #slideshow {display: none;}
+    #main {padding-top: 0px;}
+    section#one br {display: none;}
+}
+
+@media screen and (min-width: 362px ) {
+    #logo {width: 90%;}
+}
+
+@media screen and (min-width: 488px ) {
+    #logo {width: 75%;}
+}
+
+@media screen and (min-width: 600px ) {
+    #logo {width: 60%;}
+}
+
+@media screen and (min-width: 980px ) {
+    #logo {width: 140%; margin-left: -40px; padding-right: 10px; position: relative; top: 50%; transform: translateY(-100%);}
+    #slideshow {display: block;}
+    section#one br {display: block;}
+}
+
+@media screen and (min-width: 1090px ) {
+    #logo {padding-right: 26px;}
+}
+
+@media screen and (min-width: 1176px ) {
+    #logo {padding-right: 30px;}
+}
+
+@media screen and (min-width: 1271px ) {
+    #logo {padding-right: 45px;}
+}
+
+@media screen and (min-width: 1280px ) {
+    #logo {width: 110%; margin-left: 24px;}
+    #header {width: 30%;}
+}
+
+@media screen and (min-width: 1807px ) {
+    #logo {width: 100%; margin-top: -0px; margin-top: 50px; margin-left: 40px; }
+}
+
+#top {
+    overflow: hidden;
+}
+
+
+
+#center {
+
+}
+
+hr {
+    margin: 0 auto;
+}
+
+
+
+
+
+/* BALH 2 */
+
+.pop {
+    background-color: antiquewhite;
+    display: block;
+    margin-bottom: 60px;
+}
+.pop > h1 {
+  padding: 30px 30px 10px 30px;
+  color: #2a3644;
+  font-size: 100%;
+}
+.pop td p {
+  font-size: 100%;
+  color: #777;
+  line-height: 27px;
+  margin-top: -25px;
+}
+.pop > span {
+  cursor: pointer;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: #cccccc;
+  color: #ffffff;
+  padding: 0px 0px 0px 10.5px;
+  width: 30px;
+  height: 30px;
+}
+
+.pop #head {
+width: 100%;
+height: 25%;
+background-image: url('../../bahl2/headback.jpg');
+color: white;
+text-align: center;
+background-size: cover;
+padding-top: 10px;
+}
+
+.pop table, td, tr {
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.pop table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pop table img {
+    margin: 0 auto;
+    display: block;
+    width: 32.5%;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.pop td {
+    width: 50%;
+    padding: 0%;
+}
+
+.pop td:last-child {
+    padding: 20px;
+    vertical-align: top;
+}
+
+#homes2 {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#my-slider {
+    margin: 0 auto;
+}
